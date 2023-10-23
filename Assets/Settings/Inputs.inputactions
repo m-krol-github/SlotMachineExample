@@ -1,0 +1,74 @@
+{
+    "name": "Inputs",
+    "maps": [
+        {
+            "name": "Actions",
+            "id": "3feea1b4-bd84-40a0-9869-61008d0ed133",
+            "actions": [
+                {
+                    "name": "Spin",
+                    "type": "Button",
+                    "id": "cc27e9d8-bd91-4493-9b1a-b987115b1225",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Restart",
+                    "type": "Button",
+                    "id": "e87e2406-d806-49eb-b521-a5f3ce9df1c1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Debug",
+                    "type": "Button",
+                    "id": "3812625a-f48f-4a2a-97e4-d584e7c6df61",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dd62f308-1d24-4fdd-a497-24e724d3ade6",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spin",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "699d06d4-7f3e-4b6b-b933-e801986081fc",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Restart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "96c05c10-4cd5-426a-96c8-5dcbcc392ae6",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Debug",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
